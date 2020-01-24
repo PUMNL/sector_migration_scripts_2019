@@ -24,7 +24,9 @@ So a git clone of this repository in root of drupal-directory: /path/to/your/dru
 
 After the scripts are placed in the right directory, they should be runned as php-script using the URL of your site.
 For example:
+
 https://website.local/_sectormigration/1_sector_building_migration.php
+
 https://website.local/7_community_building_migration.php
 
 It depends on how many records needs to be processed, but in our case it took only a couple of seconds per script.
